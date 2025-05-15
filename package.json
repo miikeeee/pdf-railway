@@ -1,0 +1,13 @@
+{
+  "name": "premium-nk-abrechnung",
+  "version": "1.0.0",
+  "description": "Premium Nebenkostenabrechnung PDF-Generierung",
+  "main": "generate-pdf-premium.js",
+  "scripts": {
+    "start": "node generate-pdf-premium.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "puppeteer": "^21.7.0"
+  }
+}
